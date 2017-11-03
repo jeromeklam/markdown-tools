@@ -1,0 +1,19 @@
+{
+	"name" : "markdown-tools",
+	"description" : "Outils de gestion des fichiers markdown",
+	"license" : "MIT",
+	"minimum-stability" : "stable",
+	"authors" : [{
+			"name" : "KLAM Jérôme",
+			"email" : "jeromeklam@free.fr"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"MdTools\\" : "src/MdTools/"
+		}
+	},
+	"keywords" : [
+		"Markdown Merge PHP PDF Pandoc"
+	]
+}
